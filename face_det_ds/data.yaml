@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['face']
+
+roboflow:
+  workspace: face-detection-zu4kb
+  project: face-detection-c06uf
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/face-detection-zu4kb/face-detection-c06uf/dataset/1
