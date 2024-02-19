@@ -157,3 +157,12 @@ cython_debug/
 *.jpeg
 *.jpg
 *.avi
+/emotion detection.v1i.yolov8/
+/emotion_data/
+/face.v1i.yolov8/
+/Face detection.v1i.yolov8/
+/label.v2-face_keras.yolov8/
+/runs/
+/WIDER_FACE_YOLO/
+*.pt
+

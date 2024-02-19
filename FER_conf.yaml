@@ -1,0 +1,14 @@
+path: F:/CV_FaceDetection/emotion detection.v1i.yolov8
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 6
+names: ['Angry', 'Disgust', 'Happy', 'Neutral', 'Sad', 'Surprise']
+
+roboflow:
+  workspace: face-recognition-ixqtg
+  project: emotion-detection-cwq4g
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/face-recognition-ixqtg/emotion-detection-cwq4g/dataset/1

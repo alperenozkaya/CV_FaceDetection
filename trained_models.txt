@@ -1,0 +1,8 @@
+face det.v1
+train 10, 11, 12, 13
+
+face.v1i.yolov8
+train 14, 15, 16
+
+WIDER_FACE_YOLO
+train 18? 19?
