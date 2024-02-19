@@ -166,3 +166,7 @@ cython_debug/
 /WIDER_FACE_YOLO/
 *.pt
 
+*.txt
+*.csv
+*.png
+*.pt
