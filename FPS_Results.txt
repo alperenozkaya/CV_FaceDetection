@@ -1,0 +1,26 @@
+RTX 4080 Super - 14700K
+Device: cpu Model: yolov8n Average FPS: 25.763769661130496
+Device: cpu Model: yolov8m Average FPS: 9.111816644098365
+Device: cpu Model: yolov8l Average FPS: 6.465020782258849
+Device: cpu Model: yolov8x Average FPS: 4.690497681533899
+Device: cpu Model: yolov8n-face Average FPS: 27.068708256313617
+Device: cpu Model: yolov8m-face Average FPS: 10.604677467830252
+Device: cpu Model: yolov8l-face Average FPS: 6.342954891710108
+Device: cpu Model: yolov8x-face Average FPS: 4.595800562822768
+Device: cpu Model: yolov8n-FER Average FPS: 29.629842552432546
+Device: cpu Model: yolov8m-FER Average FPS: 10.652916723937954
+Device: cpu Model: yolov8l-FER Average FPS: 6.1664615843112225
+Device: cpu Model: yolov8x-FER Average FPS: 4.674626825808121
+Device: cuda Model: yolov8n Average FPS: 78.10575379494648
+Device: cuda Model: yolov8m Average FPS: 62.12220277797912
+Device: cuda Model: yolov8l Average FPS: 57.024760182214095
+Device: cuda Model: yolov8x Average FPS: 49.82038084172662
+Device: cuda Model: yolov8n-face Average FPS: 87.25642210559472
+Device: cuda Model: yolov8m-face Average FPS: 78.95465337358652
+Device: cuda Model: yolov8l-face Average FPS: 67.1608070139352
+Device: cuda Model: yolov8x-face Average FPS: 56.143371816371356
+Device: cuda Model: yolov8n-FER Average FPS: 99.95185920771594
+Device: cuda Model: yolov8m-FER Average FPS: 87.78888871383708
+Device: cuda Model: yolov8l-FER Average FPS: 79.4168425152028
+Device: cuda Model: yolov8x-FER Average FPS: 61.253538702486665
+
