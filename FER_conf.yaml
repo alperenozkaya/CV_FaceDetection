@@ -4,7 +4,7 @@ val: valid/images
 test: test/images
 
 nc: 6
-names: ['Angry', 'Disgust', 'Happy', 'Neutral', 'Sad', 'Surprise']
+names: ['Angry', 'Disgusted', 'Happy', 'Neutral', 'Sad', 'Surprised']
 
 roboflow:
   workspace: face-recognition-ixqtg
