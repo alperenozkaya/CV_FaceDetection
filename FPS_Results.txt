@@ -23,4 +23,28 @@ Device: cuda Model: yolov8n-FER Average FPS: 99.95185920771594
 Device: cuda Model: yolov8m-FER Average FPS: 87.78888871383708
 Device: cuda Model: yolov8l-FER Average FPS: 79.4168425152028
 Device: cuda Model: yolov8x-FER Average FPS: 61.253538702486665
-
+  GTX 1660 Ti - i7-9750H
+Device: cpu Model: yolov8n Average FPS: 10.552226595862013
+Device: cpu Model: yolov8m Average FPS: 3.1091957563624777
+Device: cpu Model: yolov8l Average FPS: 1.7342220291328212
+Device: cpu Model: yolov8x Average FPS: 1.203714834396101
+Device: cpu Model: yolov8n-face Average FPS: 11.452668075582624
+Device: cpu Model: yolov8m-face Average FPS: 3.1550468926590325
+Device: cpu Model: yolov8l-face Average FPS: 1.7602295242616313
+Device: cpu Model: yolov8x-face Average FPS: 1.212619447364653
+Device: cpu Model: yolov8n-FER Average FPS: 11.649595823649417
+Device: cpu Model: yolov8m-FER Average FPS: 3.18461732855581
+Device: cpu Model: yolov8l-FER Average FPS: 1.7638315601877508
+Device: cpu Model: yolov8x-FER Average FPS: 1.2217628813051424
+Device: cuda Model: yolov8n Average FPS: 61.035674579521284
+Device: cuda Model: yolov8m Average FPS: 31.153508169193795
+Device: cuda Model: yolov8l Average FPS: 25.923346114896027
+Device: cuda Model: yolov8x Average FPS: 17.330488644657105
+Device: cuda Model: yolov8n-face Average FPS: 63.85011151231807
+Device: cuda Model: yolov8m-face Average FPS: 47.96465360300683
+Device: cuda Model: yolov8l-face Average FPS: 31.3726401930903
+Device: cuda Model: yolov8x-face Average FPS: 21.03498396733838
+Device: cuda Model: yolov8n-FER Average FPS: 64.40734930346584
+Device: cuda Model: yolov8m-FER Average FPS: 58.535606077615284
+Device: cuda Model: yolov8l-FER Average FPS: 31.537108718078546
+Device: cuda Model: yolov8x-FER Average FPS: 20.958277289737282
