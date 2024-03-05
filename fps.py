@@ -4,17 +4,18 @@ from ultralytics import YOLO
 from ultralytics.utils.plotting import Annotator, colors
 import config
 import gdown
+from pathlib import Path
 
 
 class ObjectDetection:
-    def __init__(self, capture_index, model_name):
+    def __init__(self, capture_index, model_dir):
         # default parameters
         self.capture_index = capture_index
         self.email_sent = False
 
         # model information
-        self.model_name = model_name
-        self.model = YOLO(f"{model_name}.pt")
+        self.model_name = model_dir.stem
+        self.model = YOLO(model_dir)
 
         # device information
         self.device = config.device
@@ -76,8 +77,7 @@ class ObjectDetection:
             self.display_fps(im0)
             cv2.imshow('YOLOv8 Detection', im0)
             frame_count += 1
-            if cv2.waitKey(5) & 0xFF == 27:
-
+            if cv2.waitKey(1) & 0xFF == 27: # break if 'Esc' key is pressed
                 break
         self.average_fps = sum(self.fps_instances) / len(self.fps_instances)
         print(self.average_fps)
@@ -99,8 +99,7 @@ if config.download_models:
     download_datasets_from_google_drive()
 
 model_path = config.model_dir
-model_name = model_path.split('/')[-1]  # split by '/' and take the last element
-model_name = model_name.split('.')[0]  # split by '.' to remove the file extension
+model_name = model_path.stem # extract the name using pathlib
 
-detector = ObjectDetection(capture_index=0, model_name=model_name)
+detector = ObjectDetection(capture_index=0, model_dir=config.model_dir)
 detector()
